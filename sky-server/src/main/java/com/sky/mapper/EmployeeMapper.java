@@ -22,4 +22,6 @@ public interface EmployeeMapper {
     int insert(Employee employee);
 
     Page<Employee> page(EmployeePageQueryDTO queryDTO);
+
+    void update(Employee employee);
 }
